@@ -1,0 +1,22 @@
+/* 共通スタイルは外に書く */
+
+.hero_ttl {
+    color: #fff;
+}
+
+.section_divider {
+    color: #FF8E4F;
+}
+
+.work_wrapper {
+    background-color: #F0F0F0;
+}
+
+.button {
+    color: #FFAD33;
+}
+
+.bottom {
+    background: #AE6019;
+}
+
