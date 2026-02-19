@@ -1,12 +1,24 @@
 /* 共通スタイルは外に書く */
 
+/* HERO section */
+
 .hero_ttl {
     color: #fff;
+}
+
+.hero_image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
 }
 
 .section_divider {
     color: #FF8E4F;
 }
+
+/* ABOUT section */
+
 
 .work_wrapper {
     background-color: #F0F0F0;
@@ -16,7 +28,7 @@
     color: #FFAD33;
 }
 
-.bottom {
+.bottom_inner {
     background: #AE6019;
 }
 
